@@ -1,5 +1,5 @@
-﻿$candy = Get-Content ".\Powershell\sprintname\candy.txt"
-$spices = Get-Content ".\Powershell\sprintname\spices.txt"
+﻿$candy = Get-Content ".\animals.txt"
+$spices = Get-Content ".\stateofmind.txt"
 
 function Get-sprintname {
 $spices = $spices -split ","
